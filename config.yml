@@ -1,0 +1,4 @@
+﻿server:
+     port:9999
+my:
+     greeting: "hello ssdsa"
