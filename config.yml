@@ -1,4 +1,4 @@
 ﻿server:
-     port: 9999
+     port: 8889
 my:
      greeting: "hello nk test 4"
