@@ -1,4 +1,4 @@
-﻿my.greeting: hello 123
+﻿my.greeting: hello 1234
 db:
   host:  127.0.0.1
   name: "nk-test 2"
