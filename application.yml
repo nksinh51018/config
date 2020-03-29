@@ -1,4 +1,5 @@
-
+my:
+ greeting: hello asd
 db:
   host:  127.0.0.1
   name: "nk-test 2"
