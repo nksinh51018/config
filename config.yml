@@ -1,2 +1,4 @@
-server.port=9999
-my.geeting= "hello dsadsa"
+server:
+  port=9999
+my:
+  geeting= "hello dsadsa"
