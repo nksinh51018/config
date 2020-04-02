@@ -11,7 +11,7 @@ eureka:
 # Disable accessing services using service name (i.e. gallery-service).
 # They should be only accessed through the path defined below.
 zuul:
-   ignored-services: *
+   ignored-services: "*"
 
 # Map paths to services
    routes:
