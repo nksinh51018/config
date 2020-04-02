@@ -32,5 +32,3 @@ zuul:
 
 # Exclude authorization from sensitive headers
          sensitive-headers: Cookie,Set-Cookie
-         ribbon:
-             listOfServers: http://localhost:8762
