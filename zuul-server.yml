@@ -16,9 +16,9 @@ zuul:
 
 # Map paths to services
    routes:
-      movie-catalog-service:
-         path: /movieCatalog/**
-         service-id: movie-catalog-service
+      khuyenmai-service:
+         path: /khuyenMai/**
+         service-id: khuyenmai-service
 
 # Map path to auth service
       auth-service:
