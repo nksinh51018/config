@@ -10,6 +10,13 @@ spring:
       url: jdbc:mysql://localhost:3306/khuyenmai
       username: root
       password: Akthangga1
+   jpa:
+      show-sql: true
+      hibernate:
+         ddl-auto: update
+   properties:
+      hibernate:
+         dialect: org.hibernate.dialect.MySQL5Dialect
 eureka:
    client:
       service-url:
