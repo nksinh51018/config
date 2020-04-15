@@ -1,3 +1,4 @@
+
 server:
    port: 8082
 management:
@@ -17,6 +18,10 @@ spring:
    properties:
       hibernate:
          dialect: org.hibernate.dialect.MySQL5Dialect
+   servlet:
+      multipart:
+         max-file-size: 5MB
+         max-request-size: 5MB
 eureka:
    client:
       service-url:
