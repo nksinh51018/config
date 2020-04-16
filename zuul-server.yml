@@ -19,6 +19,12 @@ zuul:
       khuyenmai-service:
          path: /khuyenMai/**
          service-id: khuyenmai-service
+      hinhanh-service:
+         path: /hinhAnh/**
+         service-id: hinhanh-service
+      sanpham-service:
+         path: /sanPham/**
+         service-id: sanpham-service
 
 # Map path to auth service
       auth-service:
