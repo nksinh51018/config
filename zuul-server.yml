@@ -25,6 +25,9 @@ zuul:
       sanpham-service:
          path: /sanPham/**
          service-id: sanpham-service
+      giohang-service:
+         path: /gioHang/**
+         service-id: gioHang-service
 
 # Map path to auth service
       auth-service:
