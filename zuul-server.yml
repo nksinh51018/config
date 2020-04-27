@@ -28,7 +28,10 @@ zuul:
       giohang-service:
          path: /gioHang/**
          service-id: gioHang-service
-
+      taikhoan-service:
+         path: /taiKhoan/**
+         service-id: taikhoan-service
+         sensitive-headers: Cookie,Set-Cookie
 # Map path to auth service
       auth-service:
          path: /auth/**
