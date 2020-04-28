@@ -25,9 +25,9 @@ zuul:
       sanpham-service:
          path: /sanPham/**
          service-id: sanpham-service
-      giohang-service:
-         path: /gioHang/**
-         service-id: gioHang-service
+      hoadon-service:
+         path: /hoaDon/**
+         service-id: hoadon-service
       taikhoan-service:
          path: /taiKhoan/**
          service-id: taikhoan-service
