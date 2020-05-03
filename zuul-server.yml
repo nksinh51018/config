@@ -28,6 +28,7 @@ zuul:
       hoadon-service:
          path: /hoaDon/**
          service-id: hoadon-service
+         sensitive-headers: Cookie,Set-Cookie
       taikhoan-service:
          path: /taiKhoan/**
          service-id: taikhoan-service
