@@ -25,6 +25,7 @@ zuul:
       sanpham-service:
          path: /sanPham/**
          service-id: sanpham-service
+         sensitive-headers: Cookie,Set-Cookie
       hoadon-service:
          path: /hoaDon/**
          service-id: hoadon-service
