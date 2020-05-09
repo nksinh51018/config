@@ -22,7 +22,7 @@ zuul:
       hinhanh-service:
          path: /hinhAnh/**
          service-id: hinhanh-service
-         strip-prefix: false
+         strip-prefix: true
       sanpham-service:
          path: /sanPham/**
          service-id: sanpham-service
