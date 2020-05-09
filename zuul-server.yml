@@ -47,4 +47,7 @@ zuul:
 
 # Exclude authorization from sensitive headers
          sensitive-headers: Cookie,Set-Cookie
-         
+spring:
+    http:
+        multipart:
+            enabled: false
