@@ -23,6 +23,8 @@ spring:
       multipart:
          max-file-size: 5MB
          max-request-size: 5MB
+         enabled: true
+         location: ${java.io.tmpdir}
 eureka:
    client:
       service-url:
