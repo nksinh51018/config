@@ -19,10 +19,11 @@ zuul:
       khuyenmai-service:
          path: /khuyenMai/**
          service-id: khuyenmai-service
+         sensitive-headers: Cookie,Set-Cookie
       hinhanh-service:
          path: /hinhAnh/**
          service-id: hinhanh-service
-         strip-prefix: true
+         sensitive-headers: Cookie,Set-Cookie
       sanpham-service:
          path: /sanPham/**
          service-id: sanpham-service
