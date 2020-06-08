@@ -3,7 +3,7 @@ server:
 eureka:
    client:
       service-url:
-         default-zone: http://localhost:8761/eureka/
+         default-zone: https://servergiay.herokuapp.com/
       fetchRegistry: true
       register-with-eureka: true
 zuul:
