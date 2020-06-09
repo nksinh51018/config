@@ -23,8 +23,8 @@ spring:
 eureka:
    client:
       service-url:
-#          default-zone: http://localhost:8761/eureka/
-         default-zone: https://servergiay.herokuapp.com/eureka/
+         default-zone: http://localhost:8761/eureka/
+#          default-zone: https://servergiay.herokuapp.com/eureka/
 
 file:
    upload-dir: ./src/main/resources/static/image/
