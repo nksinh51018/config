@@ -26,5 +26,5 @@ eureka:
            default-zone: https://servergiay.herokuapp.com/eureka/
    instance:
       preferIpAddress: false
-      hostname: sanpham-service
+      hostname:  ${APPLICATION_DOMAIN}
 databaseName: sql10346568
