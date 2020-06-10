@@ -26,4 +26,5 @@ eureka:
          defaultZone: https://shrouded-mesa-49532.herokuapp.com/eureka
    instance:
       hostname: "https://sanphamservice.herokuapp.com"
+      nonSecurePort: 80
 databaseName: sql10346568
