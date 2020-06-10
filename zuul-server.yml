@@ -7,7 +7,7 @@ eureka:
       fetchRegistry: true
       register-with-eureka: true
    instance:
-      hostname: https://zuulservergiay.herokuapp.com
+      hostname: "zuulservergiay.herokuapp.com"
 zuul:
    ignored-services: "*"
 
