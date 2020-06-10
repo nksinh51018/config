@@ -3,7 +3,7 @@
 eureka:
    client:
       service-url:
-         defaultZone: https://servergiay.herokuapp.com/eureka/
+         defaultZone: https://shrouded-mesa-49532.herokuapp.com/eureka
       fetchRegistry: true
       register-with-eureka: true
 zuul:
