@@ -26,5 +26,4 @@ eureka:
          defaultZone: https://servergiay.herokuapp.com/eureka/
    instance:
       hostname: https://sanphamservice.herokuapp.com
-      nonSecurePort: 80
 databaseName: sql10346568
