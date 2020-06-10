@@ -19,11 +19,23 @@ spring:
    properties:
       hibernate:
          dialect: org.hibernate.dialect.MySQL5Dialect
-eureka:
-   client:
-      service-url:
-#          default-zone: http://localhost:8761/eureka/
-         defaultZone: https://servergiay.herokuapp.com/eureka
-   instance:
-      hostname: "sanphamservice.herokuapp.com"
+# eureka:
+#    client:
+#       service-url:
+# #          default-zone: http://localhost:8761/eureka/
+#          defaultZone: https://servergiay.herokuapp.com/eureka
+#    instance:
+#       hostname: "sanphamservice.herokuapp.com"
 databaseName: sql10346568
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_URL:http://user:password@localhost:5000}/eureka/
+
+---
+spring:
+  profiles: heroku
+eureka:
+  instance:
+    hostname: ${DOMAIN_NAME}
+    nonSecurePort: 80
