@@ -23,8 +23,8 @@ eureka:
    client:
       service-url:
 #          default-zone: http://localhost:8761/eureka/
-         defaultZone: ${EUREKA_URL:http://user:password@localhost:5000}/eureka/
+         defaultZone: https://servergiay.herokuapp.com/eureka/
    instance:
-      hostname: ${DOMAIN_NAME}
+      hostname: https://sanphamservice.herokuapp.com
       nonSecurePort: 80
 databaseName: sql10346568
