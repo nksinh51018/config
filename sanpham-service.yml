@@ -25,5 +25,5 @@ eureka:
 #          default-zone: http://localhost:8761/eureka/
          defaultZone: https://shrouded-mesa-49532.herokuapp.com/eureka
    instance:
-      hostname: "sanphamservice.herokuapp.com"
+      hostname: "https://sanphamservice.herokuapp.com"
 databaseName: sql10346568
