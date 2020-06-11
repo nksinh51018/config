@@ -7,9 +7,9 @@ management:
             include: hystrix.stream
 spring:
    datasource:
-      url: jdbc:mysql://localhost:3306/khuyenmai
-      username: root
-      password: Akthangga1
+      url: jdbc:mysql://sql2.freemysqlhosting.net:3306/sql2347443
+      username: sql2347443
+      password: kL3!jH3%
    jpa:
       show-sql: true
       hibernate:
