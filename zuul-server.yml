@@ -50,7 +50,6 @@ eureka:
   instance:
     hostname: ${DOMAIN_NAME}
     nonSecurePort: 80
-  ---
 spring:
   profiles: heroku
 eureka:
