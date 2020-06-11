@@ -4,10 +4,6 @@ eureka:
    client:
       service-url:
          defaultZone: ${EUREKA_URL:http://user:password@localhost:5000}/eureka/
-      fetchRegistry: true
-      register-with-eureka: true
-   instance:
-      hostname: ${DOMAIN_NAME}
 zuul:
    ignored-services: "*"
 
@@ -47,3 +43,10 @@ hystrix.command.default.execution.timeout.enabled: false
 ribbon:
   ConnectTimeout:  10000
   ReadTimeout:  10000
+  ---
+spring:
+  profiles: heroku
+eureka:
+  instance:
+    hostname: ${DOMAIN_NAME}
+    nonSecurePort: 80
