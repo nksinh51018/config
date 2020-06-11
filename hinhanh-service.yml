@@ -7,7 +7,7 @@ spring:
          max-file-size: 200MB
          max-request-size: 215MB
    datasource:
-      url: jdbc:mysql://sql2.freemysqlhosting.net:3306/hinhanh
+      url: jdbc:mysql://sql2.freemysqlhosting.net:3306/sql2347489
       username: sql2347489
       password: dM2*qG2!
    jpa:
