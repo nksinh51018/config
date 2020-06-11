@@ -3,11 +3,11 @@
 eureka:
    client:
       service-url:
-         defaultZone: https://shrouded-mesa-49532.herokuapp.com/eureka
+         defaultZone: ${EUREKA_URL:http://user:password@localhost:5000}/eureka/
       fetchRegistry: true
       register-with-eureka: true
    instance:
-      hostname: "zuulservergiay.herokuapp.com"
+      hostname: ${DOMAIN_NAME}
 zuul:
    ignored-services: "*"
 
