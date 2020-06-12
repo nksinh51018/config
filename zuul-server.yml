@@ -24,10 +24,6 @@ zuul:
          path: /taiKhoan/**
          service-id: taikhoan-service
          sensitive-headers: Cookie,Set-Cookie
-      taikhoan-service:
-         path: /taiKhoan/**
-         service-id: taikhoan2-service
-         sensitive-headers: Cookie,Set-Cookie
       my-service:
          path: /myService/**
          service-id: my-service
