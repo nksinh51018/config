@@ -8,7 +8,7 @@ management:
 #port: 8082
 spring:
    datasource:
-      url: jdbc:mysql:// sql10.freemysqlhosting.net:3306/sql2348960
+      url: jdbc:mysql://sql2.freemysqlhosting.net:3306/sql2348960
       username: sql2348960
       password: bZ8%vL9%
    jpa:
