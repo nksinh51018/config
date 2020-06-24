@@ -8,9 +8,9 @@ management:
 #port: 8082
 spring:
    datasource:
-      url: jdbc:mysql://sql2.freemysqlhosting.net:3306/sql2348960
-      username: sql2348960
-      password: bZ8%vL9%
+      url: jdbc:mysql://sql7.freemysqlhosting.net:3306/sql7350409
+      username: sql7350409
+      password: JADcDgjq8S
    jpa:
       show-sql: true
       hibernate:
@@ -26,7 +26,7 @@ spring:
 #          defaultZone: https://servergiay.herokuapp.com/eureka
 #    instance:
 #       hostname: "sanphamservice.herokuapp.com"
-databaseName: sql2348960
+databaseName: sql7350409
 eureka:
   client:
     serviceUrl:
