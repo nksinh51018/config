@@ -22,8 +22,8 @@ spring:
          ##location: ${java.io.tmpdir}
 
 
-file:
-   upload-dir: ./src/main/resources/static/image/
+# file:
+#    upload-dir: ./src/main/resources/static/image/
    
 
 # server:
