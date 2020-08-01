@@ -7,9 +7,9 @@ spring:
          max-file-size: 200MB
          max-request-size: 215MB
    datasource:
-      url: jdbc:mysql://sql7.freemysqlhosting.net:3306/sql7353871
-      username: sql7353871
-      password: RPXQh8TbFx
+      url: jdbc:mysql://sql7.freemysqlhosting.net:3306/sql7358074
+      username: sql7358074
+      password: Rgf2k3RFcV
    jpa:
       show-sql: true
       hibernate:
@@ -33,7 +33,7 @@ management:
       web:
          exposure:
             include: hystrix.stream
-databaseName: sql7353871
+databaseName: sql7358074
 eureka:
   client:
     serviceUrl:
