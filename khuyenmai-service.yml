@@ -7,9 +7,9 @@ management:
             include: hystrix.stream
 spring:
    datasource:
-      url: jdbc:mysql://sql7.freemysqlhosting.net:3306/sql7350408
-      username: sql7350408
-      password: UKnL7ahu5d
+      url: jdbc:mysql://sql7.freemysqlhosting.net:3306/sql7358080
+      username: sql7358080
+      password: AaQHBbXZU8
    jpa:
       show-sql: true
       hibernate:
@@ -22,7 +22,7 @@ eureka:
   client:
     serviceUrl:
       defaultZone: ${EUREKA_URL:http://user:password@localhost:5000}/eureka/
-databaseName: sql7350408
+databaseName: sql7358080
 ---
 spring:
   profiles: heroku
