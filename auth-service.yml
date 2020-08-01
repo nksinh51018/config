@@ -8,7 +8,7 @@ spring:
    datasource:
       url: jdbc:mysql://sql7.freemysqlhosting.net:3306/sql7358068
       username: sql7358068
-      password: GnftzE5AL1
+      password: RTgPb57IQw
    jpa:
       show-sql: true
       hibernate:
